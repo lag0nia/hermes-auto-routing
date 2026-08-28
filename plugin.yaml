@@ -1,0 +1,8 @@
+name: hermes-auto-routing
+version: "0.1.0"
+description: "Deterministic content routing with an explicit default fallback."
+author: pitou
+hooks:
+  - pre_gateway_dispatch
+provides_hooks:
+  - pre_gateway_dispatch

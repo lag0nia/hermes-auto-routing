@@ -4,3 +4,21 @@ __pycache__/
 .mypy_cache/
 .venv/
 uv.lock
+
+# Local runtime state, configuration and credentials
+var/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+*.sqlite3-*
+*.jsonl
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
